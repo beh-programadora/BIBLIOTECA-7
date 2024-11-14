@@ -1,0 +1,28 @@
+# Ignorar arquivos temporários de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar arquivos de banco de dados SQLite (base de dados gerada localmente)
+biblioteca.db
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de cache
+__pycache__/
+*.pyc
+
+# Ignorar arquivos gerados por pacotes Python
+*.egg-info/
+
+# Ignorar arquivos de dependências locais
+env/
+venv/
+
+# Ignorar arquivos de configuração de ambientes virtuais
+*.pyo
+
+# Ignorar arquivos de testes gerados
+test_*.pyc
