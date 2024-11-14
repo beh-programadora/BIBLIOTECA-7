@@ -1,0 +1,34 @@
+Descrição do Projeto
+Este projeto implementa um sistema de gestão de biblioteca utilizando Python, Tkinter e SQLite. O aplicativo permite aos usuários adicionar autores e livros, registrar e devolver empréstimos de livros, e visualizar os livros emprestados que não foram devolvidos. A interface gráfica foi criada com a biblioteca Tkinter, e o armazenamento de dados é feito através de um banco de dados SQLite.
+
+Objetivos
+Gerenciar autores e livros cadastrados.
+Registrar e controlar empréstimos de livros.
+Exibir a lista de livros não devolvidos.
+Interface gráfica para interação com o sistema.
+Requisitos de Sistema e Bibliotecas
+Para rodar o projeto, é necessário ter o Python 3.x instalado. O projeto usa as seguintes bibliotecas:
+
+tkinter (para a interface gráfica)
+sqlite3 (para manipulação do banco de dados)
+re (para validação de dados)
+Instalar as dependências:
+pip install -r requirements.txt
+
+Instruções de Execução
+1.Clone o repositório ou faça o download dos arquivos.
+2. Navegue até o diretório do projeto.
+3. Execute o arquivo src/biblioteca_app.py para iniciar o aplicativo.
+
+python src/biblioteca_app.py
+
+O sistema abrirá uma janela onde você pode interagir com as funcionalidades descritas.
+
+Resultados Principais
+O sistema permite que os usuários:
+
+Adicionem novos autores e livros ao banco de dados.
+Registrem empréstimos e devoluções de livros.
+Visualizem livros que não foram devolvidos e o histórico de empréstimos.
+Contribuições
+Contribuições para melhorar o sistema são bem-vindas. Para contribuir, faça um fork do repositório, crie uma branch para sua modificação e envie um pull request com suas alterações.
