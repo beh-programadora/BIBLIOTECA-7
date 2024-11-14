@@ -1,3 +1,7 @@
 tkinter
 sqlite3
-re
+Observação: A biblioteca sqlite3 já é parte da instalação padrão do Python, e o tkinter também, mas, dependendo da versão do Python,
+pode ser necessário instalar o tkinter separadamente, como:
+
+sudo apt-get install python3-tk
+
