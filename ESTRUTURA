@@ -1,0 +1,8 @@
+biblioteca_app/
+├── src/
+│   └── biblioteca_app.py
+├── dataset/
+│   └── biblioteca.db
+├── requirements.txt
+├── .gitignore
+├── README.md
